@@ -75,25 +75,25 @@ function digitclk()
     switch(day)
     {
         case 0:day="Sunday"
-        document.body.style.backgroundImage="url(../digitalClock/Gallery/photos/0.jpg)"
+        document.body.style.backgroundImage="url(../digitalClock/photos/0.jpg)"
         break;
         case 1:day="Monday"
-        document.body.style.backgroundImage="url(../digitalClock/Gallery/photos/1.jpg)"
+        document.body.style.backgroundImage="url(../digitalClock/photos/1.jpg)"
         break;
         case 2:day="Tuesday"
-        document.body.style.backgroundImage="url(../digitalClock/Gallery/photos/2.jpg)"
+        document.body.style.backgroundImage="url(../digitalClock/photos/2.jpg)"
         break;
         case 3:day="Wednesday"
-        document.body.style.backgroundImage="url(../digitalClock/Gallery/photos/3.jpg)"
+        document.body.style.backgroundImage="url(../digitalClock/photos/3.jpg)"
         break;
         case 4:day="Thursday"
-        document.body.style.backgroundImage="url(../digitalClock/Gallery/photos/4.jpg)"
+        document.body.style.backgroundImage="url(../digitalClock/photos/4.jpg)"
         break;
         case 5:day="Friday"
-        document.body.style.backgroundImage="url(../digitalClock/Gallery/photos/5.jpg)"
+        document.body.style.backgroundImage="url(../digitalClock/photos/5.jpg)"
         break;
         case 6:day="Saturday"
-        document.body.style.backgroundImage="url(../digitalClock/Gallery/photos/6.jpg)"
+        document.body.style.backgroundImage="url(../digitalClock/photos/6.jpg)"
         break;        
     }
     document.getElementById("Date").innerHTML=`${dt}/${mo}/${yy}`;
